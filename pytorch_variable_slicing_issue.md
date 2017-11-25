@@ -9,10 +9,12 @@ import numpy as np
 
 ```python
 out=np.array([[5.5737e-08,1.2218e-07]],dtype=np.float32)
+print(out)
 out = Variable(torch.from_numpy(out).cuda())
 print(out)
 ```
 
+    [[  5.57370008e-08   1.22179998e-07]]
     Variable containing:
     1.00000e-07 *
       0.5574  1.2218
